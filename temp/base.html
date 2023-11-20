@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Base</title>
+</head>
+<body>
+    
+    <header>
+        <a href="{% url 'hero' %}">Hero</a>
+        <a href="{% url 'story' %}">Story</a>
+        <a href="{% url 'iron' %}">Iron Man</a>
+        <a href="{% url 'thor' %}">Thor</a>
+        <a href="{% url 'usa' %}">Captain America</a>
+    </header>
+
+    {% block content %}
+    {% endblock content %}
+</body>
+</html>
